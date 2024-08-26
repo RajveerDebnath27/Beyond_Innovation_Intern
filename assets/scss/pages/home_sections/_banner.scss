@@ -1,0 +1,166 @@
+.bacground_class{
+
+    background: rgb(15,7,21);
+    background: linear-gradient(90deg, rgba(15,7,21,1) 1%, rgba(45,26,77,1) 52%, rgba(16,8,24,1) 80%, rgba(70,23,119,1) 97%);
+    
+    // border: 1px solid rgb(0, 136, 255);
+    padding-bottom: 30px;
+    
+    max-height: 2000px;
+    
+    
+
+
+    .body{
+        margin-top: 50px;
+        
+    }
+
+    .body_div{
+        // border-width: 1px;
+        border-style: solid;
+        padding: 10px;
+        // border-color: aliceblue;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        // height: 100%;
+        padding: 20px;
+        //text-align: center;
+        
+
+            .left_body_div{
+                // border-color: aliceblue;
+                border-style: solid;
+                object-fit: contain;
+                overflow: hidden;
+                margin-left:  130px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);;
+
+                .name{
+                    // border-style: solid;
+                    // border-width: 1px;
+                    // border-color: aliceblue;
+                    font-size: 50px;
+                    // padding-top: -100px;
+                    display: grid;
+                    place-items: center;
+                    
+                }
+                .post{
+                    // border-style: solid;
+                    // border-width: 1px;
+                    // border-color: aliceblue;
+                    font-size: 75px;
+                    display: grid;
+                    place-items: center;
+                    
+                    .gradient{
+                    // background: rgb(119,2,240);
+                    // background: linear-gradient(90deg, rgba(119,2,240,1) 1%, rgba(159,1,255,1) 27%, rgba(237,236,238,1) 78%);
+                    
+                /** TEXT GRADIENT */ color: #ffffff; background-image: -webkit-linear-gradient(180deg, #ffffff 0%, #8f00fc 69%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+                
+                
+                    }
+                }
+                .brief{
+                    // border-style: solid;
+                    // border-width: 1px;
+                    // border-color: aliceblue;
+                    font-size: 25px;
+                    padding-left: 15px;
+                    display: grid;
+                    place-items: center;
+                }
+                .cv_social{
+                    border-style: solid;
+                    
+                    // border-width: 1px;
+                    // border-color: aliceblue;
+                    display: grid;
+                    place-items: center;
+                    display:grid;
+                    grid-template-columns: 300px 1fr 1fr 1fr;
+
+                    .down{
+                        border-style: solid;
+                        // border-width: 1px;
+                        border: 1px solid var(--button_colour);
+                        font-size: 20px;
+                        color: var(--button_colour);
+                        margin-left: 100px;
+                        //background-color: #7F04CB;
+                        padding: 15px;
+                        border-radius: 20px;
+                        
+
+                        &:hover{
+                            background-color: var(--button_colour);
+                            color: var(--white);
+                        }
+
+                    }
+                    .social_icons{
+                        display: flex;
+                        gap: 20px;
+                        li{
+                            a{
+                                i{
+                                    font-size: 20px;
+                                    height: 40px;
+                                    width: 40px;
+                                    text-align: center;
+                                    line-height: 40px;
+                                    border-radius: 20px;
+                                    border: 1px solid var(--button_colour);
+
+                                    &:hover{
+                                        background-color: var(--button_colour);
+                                        color: var(--white);
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+                
+            }
+
+            // right 
+            .right_body_div{
+                border-width: 1px ;
+                //border-style: solid;
+                margin: 10px;
+                // padding: 10px;
+                border-radius: 30px;
+                width: 300px;
+                object-fit: contain;
+                margin-right: auto;
+                margin-left: auto;
+
+                img {
+                    max-width: 435px;
+                    transition-duration: .3s;
+                    transform: rotate(5deg);
+                    border-radius: 30px;
+                }
+
+                &:hover {
+                    img {
+                        transform: rotate(10deg)
+                    }
+                }
+        
+            }
+        
+    }
+
+
+    
+
+
+}
+

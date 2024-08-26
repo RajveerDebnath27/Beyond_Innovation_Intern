@@ -1,0 +1,105 @@
+#id{
+    padding: 20px 0px;
+    background-color: #F6F3FC;
+    
+    background: rgb(15,7,21);
+    background: linear-gradient(90deg, rgba(15,7,21,1) 1%, rgba(45,26,77,1) 52%, rgba(16,8,24,1) 80%, rgba(70,23,119,1) 97%);
+    
+}
+.client_story {
+    display: grid;
+    grid-template-columns: 1fr 665px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    
+    .border{}
+
+    .client_story_left {
+        margin-left: 50px;
+        margin-top: 50px;
+        // color: antiquewhite;
+        .heading {
+            font-size: 44px;
+            font-family: var(--font_sora_extrabold);
+            // color: var(--brand_color);
+            font-weight: bold;
+            background: #8958EF;
+            background: linear-gradient(to right, #8958EF 34%, #FEFDFF 74%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .pg {
+            margin-top: 30px;
+            font-family: var(--font_sora_regular);
+            font-size: 16px;
+            color: var(--white);
+
+
+        }
+    }
+
+    .client_story_right {
+        margin-top: 50px;
+        gap: 20px;
+        // border: 1px solid green;
+        padding: 10px;
+        max-width: 1000px;
+        box-sizing: border-box;
+        overflow: visible;
+       
+       
+       
+        .client_item {
+            border: 1px solid #c3c3c3;
+            border-radius: 4px;
+            padding: 10px;
+            width: 200px;
+            color: var(--white);
+            background-color: #140c1c;
+            
+            .profile_pic_part {
+                display: flex;
+                justify-content: space-between;
+                
+
+                .right {
+                    clip-path: circle(101.5% at 103% 0);
+                    // img{}
+                }
+            }
+            .item_icon {
+                display: flex;
+                gap: 0px;
+                .right,
+                .left {
+                    i {
+                        font-size: 30px;
+                        color: var(--brand_color);
+                    }
+                }
+
+                // .right {
+                //     i {}
+                // }
+            }
+
+            .client_description {
+                margin: 10px 0px 20px;
+                line-height: 20px;
+            }
+
+            .client_name {
+                font-family: var(--font_sora_bold);
+                font-size: 22px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            .designation {
+                font-size: 18px;
+            }
+        }
+    }
+}

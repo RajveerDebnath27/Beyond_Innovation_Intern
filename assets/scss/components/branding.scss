@@ -1,0 +1,104 @@
+
+.boder{
+    background-color: #050709;
+    color: aliceblue;
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    .design1{
+        max-width: 1170px;
+        margin: 0 auto;
+        
+        
+        // grid-template-columns: 1fr;
+        .quality{
+            font-family: var(--font_sora_extrabold);
+            font-weight: bold;
+            .title2{
+                background: #8958EF;
+                background: linear-gradient(to right, #8958EF 34%, #FEFDFF 74%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            
+        }
+        .service_description{
+            font-family: var(--font_sora_regular);
+            margin: 10px;
+        }
+       
+        
+        
+        // border: 1px solid aliceblue;
+        .quality{
+            // border: 1px solid aliceblue;
+            padding-bottom: 30px;
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    
+        .box_design1{
+            
+            display: grid;
+            grid-template-columns: 350px 1fr 40px;
+            cursor: pointer;
+            //position: relative;
+    
+            
+            padding: 15px;
+            gap: 15px;
+            // border: 1px solid aliceblue;
+            border-bottom: 1px solid #673bbf ;
+            font-size: 20px;
+            display: grid;
+            transition-duration: .3s;
+    
+            &:hover {
+                background-color: #673bbf;
+                color: var(--white);
+            }
+    
+           
+    
+            .box_input{
+                display: flex;
+                gap: 10px;
+                margin-left: 15px;
+                font-size: 30px;
+                font-family: var(--font_sora_extrabold);
+                font-weight: bold;
+                text-transform: capitalize;
+                
+            }
+            .box_input1{
+                font-size: 20px;
+                //border: 1px solid green;
+                
+            }
+            .box_icon{
+                text-align: right;
+                justify-content: center;
+                //border: 1px solid green;
+                height: 20px;
+                //position: relative;
+                // color: var(--white);
+                //background-color: #673bbf;
+                
+                background-image: url(/assets/images/down-right-arrow.png);
+                background-repeat: no-repeat;
+                
+            }
+        }
+        .box_design1:hover .box_icon {
+            background-image: url(/assets/images/up-right-arrow.png);
+        }
+        
+        
+    
+    }
+}
+

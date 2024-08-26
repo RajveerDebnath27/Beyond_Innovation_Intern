@@ -1,0 +1,65 @@
+.nav{
+
+    display: grid;
+    grid-template-columns: 80px 240px 1fr 150px;
+    column-gap: 30px;
+
+
+    .logo{
+        
+        padding: 0px;
+        margin: 0%;
+        display: grid;
+        align-content: center;
+        
+        img{
+            height: 25px;
+        }
+    }
+    .email{
+        display: grid;
+        align-content: center;
+        
+
+        a{
+            color: var(--white);
+
+        }
+    }
+    .nav_list{
+        display: grid;
+        align-content: center;
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            // border: var(--border);
+            gap: 30px;
+            li{
+                
+                a{
+                    text-transform: capitalize;
+                    color: var(--white);
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+.hire_me_btn{
+    text-align: right;
+    a {
+        // border: var(--border);
+        color: var(--white);
+        font-family: var(--font_sora_bold);
+        padding: 15px 25px;
+        border-radius: 30px;
+        text-transform: uppercase;
+        background: rgb(129, 76, 236);
+        background: linear-gradient(90deg, rgba(129, 76, 236, 1) 0%, rgba(48, 24, 94, 1) 100%);
+
+        &:hover {
+            background: rgb(48, 24, 94);
+            background: linear-gradient(90deg, rgba(48, 24, 94, 1) 0%, rgba(129, 76, 236, 1) 100%);
+        }
+}
+}

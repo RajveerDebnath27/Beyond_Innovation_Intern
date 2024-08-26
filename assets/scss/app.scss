@@ -1,0 +1,25 @@
+@import "./abstracts/fonts";
+
+@import "./abstracts/variables";
+
+@import "./abstracts/reset" ;
+
+
+
+@import "./utilities/container";
+@import "./utilities/box";
+
+
+
+@import "./components/user_card";
+@import "./components/nav_bar";
+@import "./components/contact.scss";
+@import "./components/branding.scss";
+@import "./components/recent_works";
+@import "./components/experience";
+@import "./components/skills";
+@import "./components/client_story";
+@import "./components/blog";
+@import "./components/footer";
+
+@import "./pages/home";
